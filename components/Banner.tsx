@@ -12,7 +12,7 @@ export default function () {
           millions of readers
         </h5>
       </div>
-      <img src="logoBig.svg"  className="hidden md:inline-flex h-32 lg:h-full" alt="" />
+      <img src="logoBig.svg"  className="hidden md:inline-flex h-36" alt="" />
     </div>
   )
 }
