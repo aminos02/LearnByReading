@@ -1,10 +1,10 @@
 import Link from "next/link"
 
 export default function Header(){
-return <header className="flex justify-between px-4 py-1 max-w-4xl mx-auto">
+return <header className="flex justify-between px-4 py-1 max-w-4xl mx-auto h-20">
 <div className="flex items-center space-x-5">
     <Link href="/">
-        <img src="logo.png" alt="logo" className="w-36 cursor-pointer" />
+        <img src="/logo.png" alt="logo" className="w-36 cursor-pointer" />
     </Link>
 <div className="hidden md:inline-flex items-center space-x-5 ">
     <Link href="#">
